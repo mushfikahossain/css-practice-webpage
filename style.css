@@ -1,0 +1,116 @@
+:root{
+    --main-color: #ffe4c4;
+    --secondary-color: #e9b181;
+    --font-size-large: 24px;
+    --font-size-med: 20px;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--main-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    background-color: rgb(88, 76, 84);
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+h1{
+    text-align: center;
+    color:rgb(255, 215, 188);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    gap: 5px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgb(192, 156, 132);
+    padding: 10px;
+    font-size: var(--font-size-large) ;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(88, 76, 84);
+}
+
+.intro {
+    padding: 5px;
+    text-align: center;
+    font-size: var(--font-size-med);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-item {
+    background-color: var(--secondary-color);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content:space-evenly;
+    width: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    padding: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+    background-color: rgb(228, 147, 72);
+    padding: 50px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.relative-container {
+    position: relative;
+    background-color:darkcyan;
+    padding: 10px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size:var(--font-size-large)
+}   
+
+.absolute-box-email{
+    position:absolute;
+    top: 0px;
+    left: 45px;
+    border: #ddd;
+    border-radius: 10px;
+}
+
+.absolute-box-phone{
+    position:absolute;
+    top: 0px;
+    right: 45px;
+}
+
+
+.footer {
+    background-color: rgb(88, 76, 84);
+    color:rgb(255, 215, 188);
+    text-align: center;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
